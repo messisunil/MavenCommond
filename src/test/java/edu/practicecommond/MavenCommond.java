@@ -11,6 +11,7 @@ public class MavenCommond {
 	@Test
 	public void facebook()
 	{
+		//opening chrome browser
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
